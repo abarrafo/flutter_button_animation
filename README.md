@@ -1,8 +1,5 @@
-# transition_buttons
+# Button Animation in Flutter
+This used to work on an older version of flutter, recently, after a `flutter upgrade` the 
+animation buttons no longer remain visible, except the final one. 
 
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+![alt text](https://github.com/abarrafo/flutter_button_animation/img/screen.gif "Logo Title Text 1")
