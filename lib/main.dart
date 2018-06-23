@@ -75,8 +75,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     return new Scaffold(
       body: new Container(),
-      floatingActionButton: new SingleChildScrollView(
-          child: new Container(
+      floatingActionButton: new Container(
             padding: new EdgeInsets.fromLTRB(
                 0.0,
                 _showMenu ? 50.0 : 0.0,
@@ -164,7 +163,6 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                   ),
                 )),
           )
-      ),
     );
   }
 }
